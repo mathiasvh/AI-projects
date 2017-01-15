@@ -3,9 +3,9 @@ public class CombinationGenerator {
 	int count = 0;
 
 	public static void main(String[] args) {
-		String[] lijstje = { "NF", "HF","NB","NBB","HBB","HB"};
+		String[] list = { "NF", "HF","NB","NBB","HBB","HB"};
 		CombinationGenerator cg = new CombinationGenerator();
-		cg.generateCombination(lijstje);
+		cg.generateCombination(list);
 	}
 
 	public void generateCombination(String[] numbers) {
